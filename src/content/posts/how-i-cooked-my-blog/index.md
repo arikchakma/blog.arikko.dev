@@ -1,7 +1,7 @@
 ---
 title: How I Cooked My Blog - using Gatsby & AWS
-slug: how-i-cooked-my-blog
-date: 2021-09-02
+slug: how-i-cooked-my-blog-with-gatsby-and-aws
+date: 2021-09-04
 spoiler: "Creating a dish not just boiling water."
 published: true
 ---
