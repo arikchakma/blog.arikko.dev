@@ -1,12 +1,12 @@
 ---
-title: How I Cooked My Blog - using Gatsby
+title: How I Cooked My Blog - using Gatsby & AWS
 slug: how-i-cooked-my-blog
 date: 2021-09-02
-spoiler: "Creating a dish, by boiling water."
+spoiler: "Creating a dish not just boiling water."
 published: true
 ---
 
-Let's discuss about how I built this website using gatsby. First thing first, what was my stack for building this badas\*?
+Let's discuss about how I built this website using gatsby and really powerful AWS. First thing first, what was my stack for building this badas\*?
 
 ## Building stack
 
@@ -16,6 +16,7 @@ Here are those shits, I used to build my blog. By the way, I faced a lot of vers
 - [Gatsby](https://gatsbyjs.com/) - Gatsby provides development teams an open source frontend framework for creating fast, secure, and scalable websites and a serverless cloud platform to build, deploy, and host them.
 - [Styled Component](https://styled-components.com/) - When it comes to styling I chose styled component without any hesitate and write all the styles from scratch.
 - [MDX](https://mdxjs.com/) - For content and post I used `mdx` over regular `md`. Though I faced so many problem while settings this up, I learned a lot of things about mdx and `graphql`.
+- [AWS](https://aws.amazon.com/) - I used Amazon Web Services (AWS) for hosting both my main site [`https://arikko.dev`](https://arikko.dev) and blog site.
 
 ## Which problems I have faced while building this badas\*:
 
@@ -53,6 +54,8 @@ I know it's not the best way for theme switching, but it worked for me. So, no t
 **Solve**: I studied few articles and found that solution. I used `gatsby-remark-prismjs` with `gatsby-plugin-mdx` and it solved my problem.
 
 4. For the syntax theme I used [Dan Abramov](https://mobile.twitter.com/dan_abramov)'s overreacted blog's theme.
+
+5. I could host my site to netlify but I was curious about aws and its services. That's why I choosed aws over everything & the experience was really great. You must try out that next level sh*t. Though it's not a problem but just an experience.
 
 ## Conclusion
 
