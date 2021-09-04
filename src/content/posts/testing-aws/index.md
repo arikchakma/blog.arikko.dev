@@ -6,4 +6,4 @@ spoiler: "Testing aws s3 bucket"
 published: true
 ---
 
-## Testing
+## Testing AWS Settings
