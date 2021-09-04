@@ -41,6 +41,11 @@ jobs:
         run: |
           npm install
           
+      # Clean files
+      - name: Clean cache
+        run: |
+          npm run clean
+
       # Build Production
       - name: Production Build
         run: |
