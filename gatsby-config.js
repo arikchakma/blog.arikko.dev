@@ -66,13 +66,19 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Arik Chakma`,
-        short_name: `Arikko`,
-        start_url: `./`,
-        background_color: `#07090E`,
-        theme_color: `#07090E`,
-        display: `minimal-ui`,
-        icon: `static/images/icons/favicon.png`, // This path is relative to the root of the site.
+        name: 'Arikko',
+        short_name: 'Arikko',
+        start_url: '/',
+        background_color: '#07090E',
+        theme_color: '#07090E',
+        // Enables "Add to Homescreen" prompt and disables browser UI (including back button)
+        // see https://developers.google.com/web/fundamentals/web-app-manifest/#display
+        display: 'standalone',
+        icon: 'static/images/icons/favicon.png', // This path is relative to the root of the site.
+        // An optional attribute which provides support for CORS check.
+        // If you do not provide a crossOrigin option, it will skip CORS for manifest.
+        // Any invalid keyword or empty string defaults to `anonymous`
+        crossOrigin: `use-credentials`,
       },
     },
     `gatsby-plugin-styled-components`,
