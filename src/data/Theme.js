@@ -4,6 +4,7 @@ const ThemeData = {
     secondary: '#BD1616',
     backgroundColor: '#fff',
     color: '#080B14',
+    headColor: '#080B14',
     heading: {
       h1: '#BD1616',
     },
@@ -20,8 +21,9 @@ const ThemeData = {
   dark: {
     main: '#080B14',
     secondary: '#DB5757',
-    backgroundColor: '#20242d',
-    color: '#EDF0F8',
+    backgroundColor: '#1f2126',
+    color: '#ebedfc',
+    headColor: '#fff',
     heading: {
       h1: '#DB5757',
     },

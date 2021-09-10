@@ -98,7 +98,7 @@ const Header = styled.header`
 
 const Heading = styled.h1`
   font-family: 'Montserrat', sans-serif;
-  color: ${prop => prop.theme.color};
+  color: ${prop => prop.theme.headColor};
   /* font-family: 'Recoleta'; */
   font-weight: 900;
   font-size: 40px;
