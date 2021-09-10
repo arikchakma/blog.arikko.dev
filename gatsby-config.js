@@ -68,7 +68,7 @@ module.exports = {
       options: {
         name: `Arik Chakma`,
         short_name: `Arikko`,
-        start_url: `/`,
+        start_url: `./`,
         background_color: `#07090E`,
         theme_color: `#07090E`,
         display: `minimal-ui`,
