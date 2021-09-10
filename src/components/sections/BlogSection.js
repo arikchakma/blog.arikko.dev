@@ -34,7 +34,9 @@ export default function BlogSection() {
             <ArticleWrapper>
               <HeaderWrapper>
                 <Header>
-                  <Link to={slug}>{title}</Link>
+                  <Link to={slug} itemProp="url">
+                    {title}
+                  </Link>
                 </Header>
                 <Small>
                   {date} • {getCoffee(timeToRead)} {timeToRead} min read
