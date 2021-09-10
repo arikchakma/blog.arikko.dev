@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import fav from '../../../static/images/icons/favicon.png';
+import fav from '../../../static/images/icons/profile.png';
 
 export default function Bio() {
   return (
